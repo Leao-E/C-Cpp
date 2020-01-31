@@ -1,10 +1,15 @@
+#ifndef _TABLE_H_
+#define _TABLE_H_
+
 typedef struct table
 {
     int col;
     int row;
-    char *content;
+    char* content;
 }table;
 
-void create_table ();
-void delete_table ();
-void load_table();
+int create_table (char* title);
+void delete_table (char* title);
+void load_table(char* title);
+
+#endif
