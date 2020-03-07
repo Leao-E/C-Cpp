@@ -8,7 +8,6 @@
 #include <errno.h>
 // </windows only>
 
-
 int create_table (char* title){
     char path[512];
     int mkdir_result = _mkdir("data");
